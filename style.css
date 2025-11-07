@@ -1,12 +1,19 @@
-p{
-    color: white;
-    background-color: red;
+
+h1{
     text-align: center;
+    color: purple;
+    margin-top: 2px;
 }
-.p{
-    color: red;
-    background-color: aqua;
+p{
+    color:red;
 }
-#sty{
-    font-size: 30px;
+.external-css{
+    border: 3px solid black;
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    width: 60%; 
+    height: 90px;
+    box-align: center;
+    
 }
