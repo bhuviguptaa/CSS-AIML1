@@ -1,19 +1,37 @@
-
-h1{
-    text-align: center;
-    color: purple;
-    margin-top: 2px;
-}
-p{
-    color:red;
-}
-.external-css{
-    border: 3px solid black;
-    background-color: white;
-    margin: 5px;
-    padding: 10px;
-    width: 60%; 
-    height: 90px;
-    box-align: center;
-    
-}
+body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            border: 2px solid #888;
+            padding: 24px;
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #fff;
+        }
+        .title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .card {
+            display: inline-block;
+            width: 180px;
+            height: 260px;
+            vertical-align: top;
+            margin: 20px 20px 0 0;
+            text-align: center;
+            font-size: 1.2em;
+            padding-top: 60px;
+        }
+        .card.book {
+            background: #fce34b;
+            color: #444;
+        }
+        .card.headphones {
+            background: #fa5ca8;
+            color: #fff;
+        }
+        .card.watch {
+            background: #bcf3f8;
+            color: #444;
+        }
