@@ -1,15 +1,27 @@
 .container{
     display: flex;
-    height: 200px;
+    height: 250px;
     width: 500px;
     background-color: aqua;
     border: 2px solid black;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;   /*6 - flex start, flex-end, center, space-between, space-around, space-evenly */
+    align-items: center;    /*5 - flex-start, flex-end, center, stretch, baseline */
+    align-content: space-between;   /*5 - flex-start, flex-end, center, stretch, space-around, space between */
+    gap: 10px 30px;
 }
+
 .item{
     height: 100px;
     width: 100px;
     background-color: coral;
     border: 2px solid black;
+    flex-shrink: 1;
+}
+
+.item2{
+    order: -1;
+    flex-grow: 2;
+    align-self: flex-end;
 }
